@@ -1,0 +1,10 @@
+<application>
+  <component name="RemoteServers">
+    <remote-server name="Local Docker" type="docker">
+      <configuration>
+        <option name="apiUrl" value="http://127.0.0.1:2375" />
+        <option name="composeExecPath" value="docker-compose.exe" />
+      </configuration>
+    </remote-server>
+  </component>
+</application>
