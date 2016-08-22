@@ -46,8 +46,12 @@
           <option name="url" value="git@github.com:mporium/mporium.signalcatcher.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:80dB/serilogj.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\PeterMaciocia\Documents\workspace\mporium" />
+    <option name="cloneParentDir" value="C:\Users\PeterMaciocia\Documents\workspace\" />
   </component>
 </application>
