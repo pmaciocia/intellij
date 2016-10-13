@@ -54,8 +54,12 @@
           <option name="url" value="git@github.com:mporium/mporium.stormtopologies.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:mporium/mporium.facebookchanneladapter.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\PeterMaciocia\Documents\workspace\mporium\" />
+    <option name="cloneParentDir" value="E:\My Documents\IntelliJ\mporium\" />
   </component>
 </application>
