@@ -1,0 +1,4 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="RunTargetAction" />
+  <action id="ideah.repl.actions.RunHaskellConsoleAction" />
+</keymap>
