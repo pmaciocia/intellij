@@ -1,5 +1,6 @@
 <application>
   <component name="CodeInsightSettings">
+    <EXCLUDED_PACKAGE NAME="com.sun.javafx.collections.MappingChange.Map" />
     <EXCLUDED_PACKAGE NAME="groovy.transform.EqualsAndHashCode" />
     <EXCLUDED_PACKAGE NAME="jdk.nashorn.internal.objects.annotations.Getter" />
     <EXCLUDED_PACKAGE NAME="jdk.nashorn.internal.objects.annotations.Setter" />
