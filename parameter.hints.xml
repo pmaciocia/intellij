@@ -1,5 +1,10 @@
 <application>
   <component name="ParameterNameHintsSettings">
-    <blacklists />
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry.antMatchers(antPatterns)" />
+        <added pattern="org.springframework.security.web.util.matcher.AntPathRequestMatcher.AntPathRequestMatcher(pattern)" />
+      </blacklist>
+    </blacklists>
   </component>
 </application>
