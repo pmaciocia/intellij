@@ -30,6 +30,18 @@
     </Renderer>
     <CustomRenderers VERSION="8">
       <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="org.apache.lucene.queries.TermsQuery" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="org.apache.lucene.queries.TermsQuery" />
+        <Renderer ID="EnumerationChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="org.apache.lucene.queries.TermsQuery" />
+          <option name="AppendDefault" value="true" />
+          <ChildrenExpression Name="">
+            <TextWithImports text="getChildResources()&#13;&#13;JAVA" type="expression" />
+          </ChildrenExpression>
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
         <option name="NAME" value="org.apache.lucene.search.BooleanClause" />
         <option name="ENABLED" value="true" />
         <option name="QUALIFIED_NAME" value="org.apache.lucene.search.BooleanClause" />
