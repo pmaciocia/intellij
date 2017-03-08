@@ -30,6 +30,18 @@
     </Renderer>
     <CustomRenderers VERSION="8">
       <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="com.mporium.facebookchanneladapter.externalapi.facebook.v2_8.operations.campaign.CampaignFetch" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="com.mporium.facebookchanneladapter.externalapi.facebook.v2_8.operations.campaign.CampaignFetch" />
+        <Renderer ID="EnumerationChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="com.mporium.facebookchanneladapter.externalapi.facebook.v2_8.operations.campaign.CampaignFetch" />
+          <option name="AppendDefault" value="true" />
+          <ChildrenExpression Name="">
+            <TextWithImports text="getSize()&#13;&#13;JAVA" type="expression" />
+          </ChildrenExpression>
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
         <option name="NAME" value="com.mporium.facebookchanneladapter.config.couchbase.IndexConfig" />
         <option name="ENABLED" value="true" />
         <option name="QUALIFIED_NAME" value="com.mporium.facebookchanneladapter.config.couchbase.IndexConfig" />
