@@ -1,12 +1,16 @@
 <application>
   <component name="CodeInsightSettings">
+    <EXCLUDED_PACKAGE NAME="com.google.common.base.Function" />
+    <EXCLUDED_PACKAGE NAME="com.sun.javafx.collections.MappingChange.Map" />
     <EXCLUDED_PACKAGE NAME="groovy.transform.EqualsAndHashCode" />
     <EXCLUDED_PACKAGE NAME="jdk.nashorn.internal.objects.annotations.Getter" />
     <EXCLUDED_PACKAGE NAME="jdk.nashorn.internal.objects.annotations.Setter" />
     <EXCLUDED_PACKAGE NAME="org.apache.commons.collections.map.AbstractHashedMap" />
     <EXCLUDED_PACKAGE NAME="org.apache.commons.collections.map.HashedMap" />
+    <EXCLUDED_PACKAGE NAME="org.omg.CORBA.Object" />
   </component>
   <component name="JavaCodeFoldingSettings">
-    <option name="COLLAPSE_ONE_LINE_METHODS" value="false" />
+    <option name="collapseConstructorGenericParameters" value="false" />
+    <option name="collapseOneLineMethods" value="false" />
   </component>
 </application>

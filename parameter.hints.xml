@@ -1,0 +1,13 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry.antMatchers(antPatterns)" />
+        <added pattern="org.springframework.security.web.util.matcher.AntPathRequestMatcher.AntPathRequestMatcher(pattern)" />
+        <added pattern="java.util.Collections.singletonList(o)" />
+        <added pattern="org.junit.Assert.*" />
+        <added pattern="com.codahale.metrics.MetricRegistry.name(name,names)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
