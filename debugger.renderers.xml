@@ -1,7 +1,5 @@
 <application>
   <component name="NodeRendererSettings">
-    <option name="HEX_VIEW_ENABLED" value="false" />
-    <option name="ALTERNATIVE_COLLECTION_VIEW_ENABLED" value="true" />
     <Renderer ID="ArrayRenderer">
       <option name="NAME" value="unnamed" />
       <option name="ENABLED" value="true" />
@@ -29,6 +27,15 @@
       <option name="SHOW_HEX_VALUE" value="false" />
     </Renderer>
     <CustomRenderers VERSION="8">
+      <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="com.couchbase.client.java.env.DefaultCouchbaseEnvironment" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="com.couchbase.client.java.env.DefaultCouchbaseEnvironment" />
+        <Renderer ID="EnumerationChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="com.couchbase.client.java.env.DefaultCouchbaseEnvironment" />
+          <option name="AppendDefault" value="true" />
+        </Renderer>
+      </Renderer>
       <Renderer ID="CompoundTypeRenderer">
         <option name="NAME" value="com.mporium.facebookchanneladapter.services.dao.search.CouchbaseQuery" />
         <option name="ENABLED" value="true" />
