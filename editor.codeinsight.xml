@@ -4,6 +4,7 @@
     <EXCLUDED_PACKAGE NAME="com.stormpath.sdk.lang.Collections" />
     <EXCLUDED_PACKAGE NAME="com.sun.javafx.collections.MappingChange.Map" />
     <EXCLUDED_PACKAGE NAME="groovy.transform.EqualsAndHashCode" />
+    <EXCLUDED_PACKAGE NAME="groovy.util" />
     <EXCLUDED_PACKAGE NAME="jdk.nashorn.internal.objects.annotations.Getter" />
     <EXCLUDED_PACKAGE NAME="jdk.nashorn.internal.objects.annotations.Setter" />
     <EXCLUDED_PACKAGE NAME="org.apache.commons.collections.map.AbstractHashedMap" />
