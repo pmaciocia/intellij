@@ -10,6 +10,7 @@
                 <option name="grepExpressionItems">
                   <list>
                     <GrepExpressionItem>
+                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*FATAL.*" />
                       <option name="id" value="86a87949-2103-4e34-9c93-9be04cac9a00" />
                       <option name="style">
@@ -31,6 +32,7 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
+                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*ERROR.*" />
                       <option name="id" value="4efd1e3b-ed41-43cc-9e05-cb7ce59c280d" />
                       <option name="style">
@@ -51,6 +53,7 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
+                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*WARN.*" />
                       <option name="id" value="10fee9d0-98c7-49e5-8705-5507939411ce" />
                       <option name="style">
@@ -71,6 +74,7 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
+                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*DEBUG.*" />
                       <option name="id" value="d3f65a7a-bc3f-4bea-9f72-3ff9ee92ad22" />
                       <option name="style">
@@ -86,6 +90,7 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
+                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*TRACE.*" />
                       <option name="id" value="629185e2-ef6e-43d3-9e41-2427e32d7161" />
                       <option name="style">
