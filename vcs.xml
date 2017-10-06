@@ -114,11 +114,12 @@
           <option name="url" value="git@github.com:mporium/mporium.rssfeedservice.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:mporium/mporium.bid-service.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\PeterMaciocia.AzureAD\Documents\workspace\mporium" />
-  </component>
-  <component name="VcsApplicationSettings">
-    <option name="SHOW_LST_WORD_DIFFERENCES" value="false" />
   </component>
 </application>
