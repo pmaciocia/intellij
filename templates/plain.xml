@@ -1,0 +1,7 @@
+<templateSet group="plain">
+  <template name="cel" value="Collections.emptyList()" description="Collection empty list" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+</templateSet>
