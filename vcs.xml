@@ -135,6 +135,7 @@
     <option name="cloneParentDir" value="C:\Users\PeterMaciocia.AzureAD\Documents\workspace\mporium" />
   </component>
   <component name="Vcs.Log.App.Settings">
+    <option name="SHOW_TAG_NAMES" value="true" />
     <option name="MIGRATED" value="true" />
   </component>
 </application>
