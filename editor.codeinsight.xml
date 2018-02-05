@@ -1,5 +1,6 @@
 <application>
   <component name="CodeInsightSettings">
+    <option name="SHOW_PARAMETER_NAME_HINTS_ON_COMPLETION" value="true" />
     <EXCLUDED_PACKAGE NAME="com.google.common.base.Function" />
     <EXCLUDED_PACKAGE NAME="com.stormpath.sdk.lang.Collections" />
     <EXCLUDED_PACKAGE NAME="com.sun.javafx.collections.MappingChange.Map" />
