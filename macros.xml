@@ -82,5 +82,16 @@
       <action id="ActivateProjectToolWindow" />
       <shortuct text="DOWN" />
     </macro>
+    <macro name="fieldToMethod">
+      <action id="EditorLineEnd" />
+      <action id="EditorLeft" />
+      <typing text-keycode="57:1;48:1">()</typing>
+      <action id="EditorPreviousWord" />
+      <action id="EditorPreviousWord" />
+      <action id="EditorPreviousWord" />
+      <typing text-keycode="71:0;69:0;84:0">get</typing>
+      <action id="EditorRightWithSelection" />
+      <action id="EditorToggleCase" />
+    </macro>
   </component>
 </application>
