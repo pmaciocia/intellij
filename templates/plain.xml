@@ -20,7 +20,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="logi" value="log.info($END$);" toReformat="true" toShortenFQNames="true">
+  <template name="logi" value="log.info($END$);" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
