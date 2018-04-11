@@ -10,6 +10,7 @@
     <EXCLUDED_PACKAGE NAME="jdk.nashorn.internal.objects.annotations.Setter" />
     <EXCLUDED_PACKAGE NAME="org.apache.commons.collections.map.AbstractHashedMap" />
     <EXCLUDED_PACKAGE NAME="org.apache.commons.collections.map.HashedMap" />
+    <EXCLUDED_PACKAGE NAME="org.omg.CORBA" />
     <EXCLUDED_PACKAGE NAME="org.omg.CORBA.Object" />
   </component>
   <component name="JavaCodeFoldingSettings">
