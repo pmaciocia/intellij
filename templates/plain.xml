@@ -34,4 +34,13 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="mss" value="Map&lt;String, String&gt; $END$" description="Map&lt;String,String&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="COMPLETION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
