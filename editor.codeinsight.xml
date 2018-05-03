@@ -1,6 +1,9 @@
 <application>
   <component name="CodeInsightSettings">
     <option name="SHOW_PARAMETER_NAME_HINTS_ON_COMPLETION" value="true" />
+    <option name="PARAMETER_INFO_DELAY" value="2000" />
+    <option name="SELECT_AUTOPOPUP_SUGGESTIONS_BY_CHARS" value="true" />
+    <option name="USE_ACCESSORS_IN_EQUALS_HASHCODE" value="true" />
     <EXCLUDED_PACKAGE NAME="com.google.common.base.Function" />
     <EXCLUDED_PACKAGE NAME="com.stormpath.sdk.lang.Collections" />
     <EXCLUDED_PACKAGE NAME="com.sun.javafx.collections.MappingChange.Map" />
@@ -10,6 +13,7 @@
     <EXCLUDED_PACKAGE NAME="jdk.nashorn.internal.objects.annotations.Setter" />
     <EXCLUDED_PACKAGE NAME="org.apache.commons.collections.map.AbstractHashedMap" />
     <EXCLUDED_PACKAGE NAME="org.apache.commons.collections.map.HashedMap" />
+    <EXCLUDED_PACKAGE NAME="org.omg.CORBA" />
     <EXCLUDED_PACKAGE NAME="org.omg.CORBA.Object" />
   </component>
   <component name="JavaCodeFoldingSettings">
