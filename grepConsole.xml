@@ -12,6 +12,29 @@
                   <list>
                     <GrepExpressionItem>
                       <option name="continueMatching" value="true" />
+                      <option name="grepExpression" value="insert" />
+                      <option name="highlightOnlyMatchingText" value="true" />
+                      <option name="id" value="7f21d660-7731-462f-b33f-bc42e4a4cae1" />
+                      <option name="operationOnMatch" value="CONTINUE_MATCHING" />
+                      <option name="style">
+                        <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="color" value="-7667916" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                          <option name="foregroundColor">
+                            <GrepColor>
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                          <option name="id" value="cdd4e8ce-c7d5-457f-9191-27325862589e" />
+                        </GrepStyle>
+                      </option>
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="continueMatching" value="true" />
                       <option name="grepExpression" value="Don't need to create transaction" />
                       <option name="highlightOnlyMatchingText" value="true" />
                       <option name="id" value="c6263d10-dd74-4f8c-9e30-872316611ce2" />
