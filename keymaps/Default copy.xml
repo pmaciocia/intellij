@@ -2,6 +2,7 @@
   <action id="Compare.SameVersion">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
+  <action id="FindBugs.CurrentFileAction" />
   <action id="PlaybackLastMacro">
     <keyboard-shortcut first-keystroke="shift ctrl back_quote" />
   </action>
@@ -10,6 +11,12 @@
     <keyboard-shortcut first-keystroke="ctrl alt q" />
   </action>
   <action id="RunTargetAction" />
+  <action id="StructuralSearchPlugin.StructuralReplaceAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt r" />
+  </action>
+  <action id="StructuralSearchPlugin.StructuralSearchAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt f" />
+  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
