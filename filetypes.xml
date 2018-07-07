@@ -1,24 +1,27 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="ecs-deploy" type="Bash" />
+      <mapping ext="pks" type="DBN-PSQL" />
+      <mapping ext="prc" type="DBN-PSQL" />
+      <mapping ext="trg" type="DBN-PSQL" />
+      <mapping ext="fnc" type="DBN-PSQL" />
+      <mapping ext="tps" type="DBN-PSQL" />
+      <mapping ext="tpe" type="DBN-PSQL" />
+      <mapping ext="tpb" type="DBN-PSQL" />
+      <mapping ext="pkg" type="DBN-PSQL" />
+      <mapping ext="pkb" type="DBN-PSQL" />
+      <mapping ext="vw" type="DBN-SQL" />
       <mapping ext="back" type="Native" />
       <mapping pattern="scratch" type="PLAIN_TEXT" />
       <mapping pattern="efs_mount" type="PLAIN_TEXT" />
+      <mapping pattern="typescript" type="PLAIN_TEXT" />
       <mapping pattern="userdata" type="PLAIN_TEXT" />
       <mapping pattern="README" type="PLAIN_TEXT" />
       <mapping pattern="docker-boothook" type="PLAIN_TEXT" />
+      <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping ext="exec" type="PLAIN_TEXT" />
-      <mapping ext="csv" type="PLAIN_TEXT" />
-      <mapping ext="fnc" type="DBN-PSQL" />
-      <mapping ext="pkb" type="DBN-PSQL" />
-      <mapping ext="pkg" type="DBN-PSQL" />
-      <mapping ext="pks" type="DBN-PSQL" />
-      <mapping ext="prc" type="DBN-PSQL" />
-      <mapping ext="tpb" type="DBN-PSQL" />
-      <mapping ext="tpe" type="DBN-PSQL" />
-      <mapping ext="tps" type="DBN-PSQL" />
-      <mapping ext="trg" type="DBN-PSQL" />
-      <mapping ext="vw" type="DBN-SQL" />
+      <mapping pattern="V4__Update_Constraints" type="SQL" />
     </extensionMap>
   </component>
 </application>

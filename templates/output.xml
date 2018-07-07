@@ -1,0 +1,12 @@
+<templateSet group="output">
+  <template name="linfo" value="log.info($END$);" description="sl4j log.info" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ldebug" value="log.debug($END$);" description="sl4j log.info" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
