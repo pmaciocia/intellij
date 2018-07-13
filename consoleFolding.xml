@@ -2,7 +2,9 @@
   <component name="ConsoleFoldingSettings">
     <option name="addedPositive">
       <list>
-        <option value="Hibernate:" />
+        <option value="at org.apache.catalina" />
+        <option value="at org.apache.coyote" />
+        <option value="Hibernate: select" />
       </list>
     </option>
   </component>
