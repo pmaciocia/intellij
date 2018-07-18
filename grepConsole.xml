@@ -12,111 +12,6 @@
                   <list>
                     <GrepExpressionItem>
                       <option name="continueMatching" value="true" />
-                      <option name="grepExpression" value="LockService" />
-                      <option name="highlightOnlyMatchingText" value="true" />
-                      <option name="operationOnMatch" value="CONTINUE_MATCHING" />
-                      <option name="style">
-                        <GrepStyle>
-                          <option name="backgroundColor">
-                            <GrepColor>
-                              <option name="color" value="-11561985" />
-                              <option name="enabled" value="true" />
-                            </GrepColor>
-                          </option>
-                          <option name="foregroundColor">
-                            <GrepColor>
-                              <option name="enabled" value="true" />
-                            </GrepColor>
-                          </option>
-                        </GrepStyle>
-                      </option>
-                    </GrepExpressionItem>
-                    <GrepExpressionItem>
-                      <option name="continueMatching" value="true" />
-                      <option name="grepExpression" value="delete" />
-                      <option name="highlightOnlyMatchingText" value="true" />
-                      <option name="operationOnMatch" value="CONTINUE_MATCHING" />
-                      <option name="style">
-                        <GrepStyle>
-                          <option name="backgroundColor">
-                            <GrepColor>
-                              <option name="color" value="-3209984" />
-                              <option name="enabled" value="true" />
-                            </GrepColor>
-                          </option>
-                          <option name="foregroundColor">
-                            <GrepColor>
-                              <option name="enabled" value="true" />
-                            </GrepColor>
-                          </option>
-                        </GrepStyle>
-                      </option>
-                    </GrepExpressionItem>
-                    <GrepExpressionItem>
-                      <option name="continueMatching" value="true" />
-                      <option name="grepExpression" value="update" />
-                      <option name="highlightOnlyMatchingText" value="true" />
-                      <option name="operationOnMatch" value="CONTINUE_MATCHING" />
-                      <option name="style">
-                        <GrepStyle>
-                          <option name="backgroundColor">
-                            <GrepColor>
-                              <option name="color" value="-5632" />
-                              <option name="enabled" value="true" />
-                            </GrepColor>
-                          </option>
-                          <option name="foregroundColor">
-                            <GrepColor>
-                              <option name="enabled" value="true" />
-                            </GrepColor>
-                          </option>
-                        </GrepStyle>
-                      </option>
-                    </GrepExpressionItem>
-                    <GrepExpressionItem>
-                      <option name="continueMatching" value="true" />
-                      <option name="grepExpression" value="insert" />
-                      <option name="highlightOnlyMatchingText" value="true" />
-                      <option name="operationOnMatch" value="CONTINUE_MATCHING" />
-                      <option name="style">
-                        <GrepStyle>
-                          <option name="backgroundColor">
-                            <GrepColor>
-                              <option name="color" value="-7667916" />
-                              <option name="enabled" value="true" />
-                            </GrepColor>
-                          </option>
-                          <option name="foregroundColor">
-                            <GrepColor>
-                              <option name="enabled" value="true" />
-                            </GrepColor>
-                          </option>
-                        </GrepStyle>
-                      </option>
-                    </GrepExpressionItem>
-                    <GrepExpressionItem>
-                      <option name="continueMatching" value="true" />
-                      <option name="grepExpression" value="Don't need to create transaction" />
-                      <option name="highlightOnlyMatchingText" value="true" />
-                      <option name="operationOnMatch" value="CONTINUE_MATCHING" />
-                      <option name="style">
-                        <GrepStyle>
-                          <option name="backgroundColor">
-                            <GrepColor>
-                              <option name="color" value="-5632" />
-                              <option name="enabled" value="true" />
-                            </GrepColor>
-                          </option>
-                          <option name="foregroundColor">
-                            <GrepColor>
-                              <option name="enabled" value="true" />
-                            </GrepColor>
-                          </option>
-                        </GrepStyle>
-                      </option>
-                    </GrepExpressionItem>
-                    <GrepExpressionItem>
-                      <option name="continueMatching" value="true" />
                       <option name="grepExpression" value="Completing transaction" />
                       <option name="highlightOnlyMatchingText" value="true" />
                       <option name="operationOnMatch" value="CONTINUE_MATCHING" />
@@ -138,7 +33,7 @@
                     </GrepExpressionItem>
                     <GrepExpressionItem>
                       <option name="continueMatching" value="true" />
-                      <option name="grepExpression" value="Getting transaction" />
+                      <option name="grepExpression" value="Getting transaction for" />
                       <option name="highlightOnlyMatchingText" value="true" />
                       <option name="operationOnMatch" value="CONTINUE_MATCHING" />
                       <option name="style">
@@ -146,6 +41,27 @@
                           <option name="backgroundColor">
                             <GrepColor>
                               <option name="color" value="-64256" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                          <option name="foregroundColor">
+                            <GrepColor>
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                        </GrepStyle>
+                      </option>
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="continueMatching" value="true" />
+                      <option name="grepExpression" value="Don't need to create transaction" />
+                      <option name="highlightOnlyMatchingText" value="true" />
+                      <option name="operationOnMatch" value="CONTINUE_MATCHING" />
+                      <option name="style">
+                        <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="color" value="-5632" />
                               <option name="enabled" value="true" />
                             </GrepColor>
                           </option>
