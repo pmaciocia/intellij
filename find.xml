@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '...\src\main\java\com\mporium\signalcatcher\application\config [mporium.signalcatcher_main]'" />
-    <option name="defaultScopeName" value="Directory '...\src\main\java\com\mporium\signalcatcher\application\config [mporium.signalcatcher_main]'" />
+    <option name="customScope" value="configActions" />
+    <option name="defaultScopeName" value="configActions" />
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="WITH_SUBDIRECTORIES" value="false" />
-    <option name="SEARCH_SCOPE" value="Directory '...\src\main\java\com\mporium\signalcatcher\application\config [mporium.signalcatcher_main]'" />
+    <option name="SEARCH_SCOPE" value="configActions" />
   </component>
 </application>
