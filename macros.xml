@@ -93,5 +93,28 @@
       <action id="EditorRightWithSelection" />
       <action id="EditorToggleCase" />
     </macro>
+    <macro name="nameString">
+      <action id="EditorPreviousWord" />
+      <action id="EditorPreviousWord" />
+      <action id="EditorSelectWord" />
+      <action id="EditorCopy" />
+      <action id="EditorLineEnd" />
+      <typing text-keycode="32:0;50:1">&amp;#x20;&quot;</typing>
+      <action id="EditorPaste" />
+      <action id="EditorCompleteStatement" />
+      <action id="EditorDown" />
+    </macro>
+    <macro name="&lt;noname&gt;">
+      <action id="EditorSelectWord" />
+      <action id="EditorCopy" />
+      <action id="EditorRight" />
+      <action id="EditorNextWord" />
+      <action id="EditorSelectWord" />
+      <action id="EditorDelete" />
+      <typing text-keycode="65:1;67:0;84:0;73:0;79:0;78:0;84:1;89:0;80:0;69:0;67:1;79:0;78:0;83:0;84:0;65:0;78:0;84:0;83:0;46:0">ActionTypeConstants.</typing>
+      <action id="EditorPaste" />
+      <action id="EditorDown" />
+      <action id="EditorLineStart" />
+    </macro>
   </component>
 </application>
