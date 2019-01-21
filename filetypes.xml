@@ -23,6 +23,7 @@
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping ext="exec" type="PLAIN_TEXT" />
       <mapping pattern="V4__Update_Constraints" type="SQL" />
+      <mapping pattern="V8_Drop_Match_Columns" type="SQL" />
     </extensionMap>
   </component>
 </application>
