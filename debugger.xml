@@ -81,6 +81,17 @@
   <component name="NodeRendererSettings">
     <CustomRenderers VERSION="8">
       <Renderer ID="CompoundTypeRenderer">
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="java.util.concurrent.CompletableFuture$AsyncSupply" />
+        <Renderer ID="EnumerationChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="java.util.concurrent.CompletableFuture$AsyncSupply" />
+          <option name="AppendDefault" value="true" />
+          <ChildrenExpression Name="">
+            <TextWithImports text="&#13;&#13;JAVA" type="expression" />
+          </ChildrenExpression>
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
         <option name="NAME" value="com.couchbase.client.java.env.DefaultCouchbaseEnvironment" />
         <option name="ENABLED" value="true" />
         <option name="QUALIFIED_NAME" value="com.couchbase.client.java.env.DefaultCouchbaseEnvironment" />
