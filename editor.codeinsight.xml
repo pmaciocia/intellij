@@ -3,6 +3,7 @@
     <option name="SHOW_PARAMETER_NAME_HINTS_ON_COMPLETION" value="true" />
     <option name="PARAMETER_INFO_DELAY" value="2000" />
     <option name="USE_ACCESSORS_IN_EQUALS_HASHCODE" value="true" />
+    <EXCLUDED_PACKAGE NAME="antlr.collections.List" />
     <EXCLUDED_PACKAGE NAME="com.google.common.base.Function" />
     <EXCLUDED_PACKAGE NAME="com.stormpath.sdk.lang.Collections" />
     <EXCLUDED_PACKAGE NAME="com.sun.javafx.collections.MappingChange.Map" />
