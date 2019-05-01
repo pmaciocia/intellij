@@ -1,7 +1,6 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern="ecs-deploy" type="Bash" />
       <mapping ext="tps" type="DBN-PSQL" />
       <mapping ext="tpe" type="DBN-PSQL" />
@@ -21,6 +20,7 @@
       <mapping pattern="README" type="PLAIN_TEXT" />
       <mapping pattern="docker-boothook" type="PLAIN_TEXT" />
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
+      <mapping ext="ser" type="PLAIN_TEXT" />
       <mapping ext="exec" type="PLAIN_TEXT" />
       <mapping pattern="V4__Update_Constraints" type="SQL" />
       <mapping pattern="V8_Drop_Match_Columns" type="SQL" />
