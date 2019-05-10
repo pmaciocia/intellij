@@ -150,6 +150,10 @@
           <option name="url" value="git@github.com:oktadeveloper/okta-spring-security-5-example.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:/mporium/spark-kafka-to-kafka-utils.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\PeterMaciocia.AzureAD\Documents\workspace" />
