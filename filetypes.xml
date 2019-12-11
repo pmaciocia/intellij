@@ -1,31 +1,19 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="ecs-deploy" type="Bash" />
-      <mapping ext="prc" type="DBN-PSQL" />
-      <mapping ext="fnc" type="DBN-PSQL" />
-      <mapping ext="pks" type="DBN-PSQL" />
-      <mapping ext="pkg" type="DBN-PSQL" />
-      <mapping ext="pkb" type="DBN-PSQL" />
-      <mapping ext="trg" type="DBN-PSQL" />
-      <mapping ext="tps" type="DBN-PSQL" />
-      <mapping ext="tpe" type="DBN-PSQL" />
-      <mapping ext="tpb" type="DBN-PSQL" />
-      <mapping ext="vw" type="DBN-SQL" />
       <mapping ext="back" type="Native" />
-      <mapping pattern="typescript" type="PLAIN_TEXT" />
       <mapping pattern="scratch" type="PLAIN_TEXT" />
       <mapping pattern="efs_mount" type="PLAIN_TEXT" />
+      <mapping pattern="typescript" type="PLAIN_TEXT" />
       <mapping pattern="userdata" type="PLAIN_TEXT" />
       <mapping pattern="README" type="PLAIN_TEXT" />
       <mapping pattern="docker-boothook" type="PLAIN_TEXT" />
-      <mapping ext="exec" type="PLAIN_TEXT" />
       <mapping ext="ser" type="PLAIN_TEXT" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <mapping ext="exec" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
-      <mapping pattern="V8_Drop_Match_Columns" type="SQL" />
       <mapping pattern="V4__Update_Constraints" type="SQL" />
+      <mapping pattern="V8_Drop_Match_Columns" type="SQL" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".gitattributes" approved="true" type="PLAIN_TEXT" />
@@ -33,6 +21,7 @@
       <removed_mapping ext="makefile" approved="true" type="textmate" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
+      <mapping pattern="ecs-deploy" type="Bash" />
     </extensionMap>
   </component>
 </application>
