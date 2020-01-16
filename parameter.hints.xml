@@ -9,5 +9,10 @@
         <added pattern="com.codahale.metrics.MetricRegistry.name(name,names)" />
       </blacklist>
     </blacklists>
+    <disabledLanguages>
+      <language id="JAVA" />
+      <language id="kotlin" />
+      <language id="Groovy" />
+    </disabledLanguages>
   </component>
 </application>
