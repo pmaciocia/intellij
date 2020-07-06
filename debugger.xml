@@ -1,7 +1,5 @@
 <application>
   <component name="DebuggerSettings">
-    <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapNever" />
-    <option name="WATCH_RETURN_VALUES" value="true" />
     <filter>
       <option name="PATTERN" value="com.sun.*" />
       <option name="ENABLED" value="true" />
@@ -34,6 +32,11 @@
     </filter>
     <filter>
       <option name="PATTERN" value="junit.*" />
+      <option name="ENABLED" value="true" />
+      <option name="INCLUDE" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="org.junit.*" />
       <option name="ENABLED" value="true" />
       <option name="INCLUDE" value="true" />
     </filter>
@@ -77,147 +80,15 @@
       <option name="ENABLED" value="true" />
       <option name="INCLUDE" value="true" />
     </filter>
-  </component>
-  <component name="NodeRendererSettings">
-    <CustomRenderers VERSION="8">
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="java.util.concurrent.CompletableFuture$AsyncSupply" />
-        <Renderer ID="EnumerationChildrenRenderer" role="children">
-          <option name="QUALIFIED_NAME" value="java.util.concurrent.CompletableFuture$AsyncSupply" />
-          <option name="AppendDefault" value="true" />
-          <ChildrenExpression Name="">
-            <TextWithImports text="&#13;&#13;JAVA" type="expression" />
-          </ChildrenExpression>
-        </Renderer>
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="com.couchbase.client.java.env.DefaultCouchbaseEnvironment" />
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="com.couchbase.client.java.env.DefaultCouchbaseEnvironment" />
-        <Renderer ID="EnumerationChildrenRenderer" role="children">
-          <option name="QUALIFIED_NAME" value="com.couchbase.client.java.env.DefaultCouchbaseEnvironment" />
-          <option name="AppendDefault" value="true" />
-        </Renderer>
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="com.mporium.facebookchanneladapter.services.dao.search.CouchbaseQuery" />
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="com.mporium.facebookchanneladapter.services.dao.search.CouchbaseQuery" />
-        <Renderer ID="EnumerationChildrenRenderer" role="children">
-          <option name="QUALIFIED_NAME" value="com.mporium.facebookchanneladapter.services.dao.search.CouchbaseQuery" />
-          <option name="AppendDefault" value="true" />
-          <ChildrenExpression Name="">
-            <TextWithImports text="asString()&#13;&#13;JAVA" type="expression" />
-          </ChildrenExpression>
-        </Renderer>
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="com.mporium.facebookchanneladapter.externalapi.facebook.v2_8.operations.campaign.CampaignFetch" />
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="com.mporium.facebookchanneladapter.externalapi.facebook.v2_8.operations.campaign.CampaignFetch" />
-        <Renderer ID="EnumerationChildrenRenderer" role="children">
-          <option name="QUALIFIED_NAME" value="com.mporium.facebookchanneladapter.externalapi.facebook.v2_8.operations.campaign.CampaignFetch" />
-          <option name="AppendDefault" value="true" />
-          <ChildrenExpression Name="">
-            <TextWithImports text="getSize()&#13;&#13;JAVA" type="expression" />
-          </ChildrenExpression>
-        </Renderer>
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="com.mporium.facebookchanneladapter.config.couchbase.IndexConfig" />
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="com.mporium.facebookchanneladapter.config.couchbase.IndexConfig" />
-        <Renderer ID="EnumerationChildrenRenderer" role="children">
-          <option name="QUALIFIED_NAME" value="com.mporium.facebookchanneladapter.config.couchbase.IndexConfig" />
-          <option name="AppendDefault" value="true" />
-          <ChildrenExpression Name="">
-            <TextWithImports text="getKeys()&#13;&#13;JAVA" type="expression" />
-          </ChildrenExpression>
-          <ChildrenExpression Name="">
-            <TextWithImports text="getEscapedKeys()&#13;&#13;JAVA" type="expression" />
-          </ChildrenExpression>
-        </Renderer>
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="com.mporium.facebookchanneladapter.externalapi.facebook.v2_8.operations.adset.AdSetBidOperation" />
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="com.mporium.facebookchanneladapter.externalapi.facebook.v2_8.operations.adset.AdSetBidOperation" />
-        <Renderer ID="EnumerationChildrenRenderer" role="children">
-          <option name="QUALIFIED_NAME" value="com.mporium.facebookchanneladapter.externalapi.facebook.v2_8.operations.adset.AdSetBidOperation" />
-          <option name="AppendDefault" value="true" />
-          <ChildrenExpression Name="">
-            <TextWithImports text="getDtoObject().getParentAccountId()&#13;&#13;JAVA" type="expression" />
-          </ChildrenExpression>
-        </Renderer>
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="java.lang.reflect.Field" />
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="java.lang.reflect.Field" />
-        <Renderer ID="EnumerationChildrenRenderer" role="children">
-          <option name="QUALIFIED_NAME" value="java.lang.reflect.Field" />
-          <option name="AppendDefault" value="true" />
-          <ChildrenExpression Name="">
-            <TextWithImports text="getGenericType()&#13;&#13;JAVA" type="expression" />
-          </ChildrenExpression>
-        </Renderer>
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="org.apache.lucene.queries.TermsQuery" />
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="org.apache.lucene.queries.TermsQuery" />
-        <Renderer ID="EnumerationChildrenRenderer" role="children">
-          <option name="QUALIFIED_NAME" value="org.apache.lucene.queries.TermsQuery" />
-          <option name="AppendDefault" value="true" />
-          <ChildrenExpression Name="">
-            <TextWithImports text="getChildResources()&#13;&#13;JAVA" type="expression" />
-          </ChildrenExpression>
-        </Renderer>
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="org.apache.lucene.search.BooleanClause" />
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="org.apache.lucene.search.BooleanClause" />
-        <Renderer ID="EnumerationChildrenRenderer" role="children">
-          <option name="QUALIFIED_NAME" value="org.apache.lucene.search.BooleanClause" />
-          <option name="AppendDefault" value="true" />
-          <ChildrenExpression Name="">
-            <TextWithImports text="getOccur().name()&#13;&#13;JAVA" type="expression" />
-          </ChildrenExpression>
-        </Renderer>
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="com.mporium.facebookchanneladapter.externalapi.facebook.v2_8.operations.adset.AdSetFetch" />
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="com.mporium.facebookchanneladapter.externalapi.facebook.v2_8.operations.adset.AdSetFetch" />
-        <Renderer ID="EnumerationChildrenRenderer" role="children">
-          <option name="QUALIFIED_NAME" value="com.mporium.facebookchanneladapter.externalapi.facebook.v2_8.operations.adset.AdSetFetch" />
-          <option name="AppendDefault" value="true" />
-          <ChildrenExpression Name="">
-            <TextWithImports text="getType()&#13;&#13;JAVA" type="expression" />
-          </ChildrenExpression>
-        </Renderer>
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="org.springframework.security.web.servletapi.HttpServlet3RequestFactory$Servlet3SecurityContextHolderAwareRequestWrapper" />
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="org.springframework.security.web.servletapi.HttpServlet3RequestFactory$Servlet3SecurityContextHolderAwareRequestWrapper" />
-        <Renderer ID="EnumerationChildrenRenderer" role="children">
-          <option name="QUALIFIED_NAME" value="org.springframework.security.web.servletapi.HttpServlet3RequestFactory$Servlet3SecurityContextHolderAwareRequestWrapper" />
-          <option name="AppendDefault" value="true" />
-          <ChildrenExpression Name="">
-            <TextWithImports text="getMethod()&#13;&#13;JAVA" type="expression" />
-          </ChildrenExpression>
-        </Renderer>
-      </Renderer>
-    </CustomRenderers>
+    <filter>
+      <option name="PATTERN" value="kotlin.*" />
+      <option name="ENABLED" value="true" />
+      <option name="INCLUDE" value="true" />
+    </filter>
   </component>
   <component name="XDebuggerSettings">
     <data-views />
-    <general>
-      <evaluation-dialog-mode>CODE_FRAGMENT</evaluation-dialog-mode>
-    </general>
+    <general />
     <debuggers>
       <debugger id="kotlin_debugger">
         <configuration>
